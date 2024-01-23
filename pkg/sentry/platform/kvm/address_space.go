@@ -15,12 +15,12 @@
 package kvm
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/ring0/pagetables"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/ring0/pagetables"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/memmap"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/platform"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 )
 
 // dirtySet tracks vCPUs for invalidation.

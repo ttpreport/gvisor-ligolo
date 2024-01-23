@@ -20,8 +20,8 @@ import (
 	"os/signal"
 	"reflect"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
 )
 
 // numSignals is the number of normal (non-realtime) signals on Linux.

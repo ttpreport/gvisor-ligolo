@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"sort"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
+	"github.com/ttpreport/gvisor-ligolo/pkg/ring0"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/ring0"
 )
 
 type region struct {

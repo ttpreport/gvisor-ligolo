@@ -26,13 +26,13 @@ import (
 	"io"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header/parse"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/nested"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/ttpreport/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/header/parse"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/link/nested"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/stack"
 )
 
 // LogPackets is a flag used to enable or disable packet logging via the log

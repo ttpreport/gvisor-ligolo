@@ -19,15 +19,15 @@ import (
 	"fmt"
 	"syscall"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
+	"github.com/ttpreport/gvisor-ligolo/pkg/binary"
+	"github.com/ttpreport/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/marshal"
+	"github.com/ttpreport/gvisor-ligolo/pkg/marshal/primitive"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/inet"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/binary"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/inet"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
 )
 
 func getInterfaces() (map[int32]inet.Interface, error) {

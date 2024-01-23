@@ -18,9 +18,9 @@ package parse
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/stack"
 )
 
 // ARP populates pkt's network header with an ARP header found in

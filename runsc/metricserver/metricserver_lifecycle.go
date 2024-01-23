@@ -22,8 +22,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/runsc/container"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
+	"github.com/ttpreport/gvisor-ligolo/runsc/container"
 )
 
 // verifyLoopInterval is the interval at which we check whether there are any sandboxes we need

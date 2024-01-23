@@ -35,8 +35,8 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 
 	"github.com/bazelbuild/rules_go/go/tools/coverdata"
 )

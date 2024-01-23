@@ -17,10 +17,10 @@ package linux
 import (
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
+	"github.com/ttpreport/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/kernel"
 )
 
 const nsecPerSec = int64(time.Second)

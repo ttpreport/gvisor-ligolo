@@ -3,7 +3,7 @@
 package ipv6
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/state"
+	"github.com/ttpreport/gvisor-ligolo/pkg/state"
 )
 
 func (i *icmpv6DestinationUnreachableSockError) StateTypeName() string {

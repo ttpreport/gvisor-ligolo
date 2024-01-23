@@ -18,8 +18,8 @@
 package ring0
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/cpuid"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/cpuid"
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
 )
 
 // fxrstor restores floating point state.

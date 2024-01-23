@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/header"
 )
 
 // A Hook specifies one of the hooks built into the network stack.

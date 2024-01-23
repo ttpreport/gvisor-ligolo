@@ -15,15 +15,15 @@
 package pipe
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/safemem"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/usermem"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
+	"github.com/ttpreport/gvisor-ligolo/pkg/context"
+	"github.com/ttpreport/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/safemem"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/ttpreport/gvisor-ligolo/pkg/usermem"
+	"github.com/ttpreport/gvisor-ligolo/pkg/waiter"
 )
 
 // This file contains types enabling the pipe package to be used with the vfs

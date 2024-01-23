@@ -29,14 +29,14 @@ import (
 
 	"github.com/google/subcommands"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
+	"github.com/ttpreport/gvisor-ligolo/runsc/cmd/util"
+	"github.com/ttpreport/gvisor-ligolo/runsc/config"
+	"github.com/ttpreport/gvisor-ligolo/runsc/console"
+	"github.com/ttpreport/gvisor-ligolo/runsc/container"
+	"github.com/ttpreport/gvisor-ligolo/runsc/flag"
+	"github.com/ttpreport/gvisor-ligolo/runsc/specutils"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
-	"github.com/nicocha30/gvisor-ligolo/runsc/config"
-	"github.com/nicocha30/gvisor-ligolo/runsc/console"
-	"github.com/nicocha30/gvisor-ligolo/runsc/container"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
-	"github.com/nicocha30/gvisor-ligolo/runsc/specutils"
 )
 
 var errNoDefaultInterface = errors.New("no default interface found")

@@ -17,9 +17,9 @@ package usermem
 import (
 	"unsafe"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/ttpreport/gvisor-ligolo/pkg/context"
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
 )
 
 // SwapUint32 implements IO.SwapUint32.

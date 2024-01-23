@@ -17,13 +17,13 @@ package netlink
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/sockfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/socket"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/syserr"
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
+	"github.com/ttpreport/gvisor-ligolo/pkg/context"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/fsimpl/sockfs"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/kernel"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/socket"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/ttpreport/gvisor-ligolo/pkg/syserr"
 )
 
 // Protocol is the implementation of a netlink socket protocol.

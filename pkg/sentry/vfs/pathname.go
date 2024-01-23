@@ -15,10 +15,10 @@
 package vfs
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/fspath"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/context"
+	"github.com/ttpreport/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/ttpreport/gvisor-ligolo/pkg/fspath"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 )
 
 var fspathBuilderPool = sync.Pool{

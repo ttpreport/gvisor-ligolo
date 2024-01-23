@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/ttpreport/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
 )
 
 type endpointControlImpl struct {

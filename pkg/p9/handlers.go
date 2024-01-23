@@ -22,12 +22,12 @@ import (
 	"path"
 	"strings"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/ttpreport/gvisor-ligolo/pkg/errors"
+	"github.com/ttpreport/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/ttpreport/gvisor-ligolo/pkg/fd"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/fd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
 )
 
 // ExtractErrno extracts a unix.Errno from a error, best effort.

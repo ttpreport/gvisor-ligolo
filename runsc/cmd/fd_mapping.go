@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nicocha30/gvisor-ligolo/runsc/boot"
+	"github.com/ttpreport/gvisor-ligolo/runsc/boot"
 )
 
 // fdMappings can be used with flags that appear multiple times.

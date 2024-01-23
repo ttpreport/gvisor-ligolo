@@ -20,16 +20,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/hash/jenkins"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header/parse"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/internal/tcp"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/seqnum"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/raw"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/hash/jenkins"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/header/parse"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/internal/tcp"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/seqnum"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/transport/raw"
+	"github.com/ttpreport/gvisor-ligolo/pkg/waiter"
 )
 
 const (

@@ -15,8 +15,8 @@
 package strace
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi"
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
 )
 
 // CloneFlagSet is the set of clone(2) flags.

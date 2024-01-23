@@ -19,10 +19,10 @@ package time
 import (
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/metric"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
+	"github.com/ttpreport/gvisor-ligolo/pkg/metric"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 )
 
 // CalibratedClock implements a clock that tracks a reference clock.

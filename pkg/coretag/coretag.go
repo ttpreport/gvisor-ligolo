@@ -20,8 +20,8 @@ import (
 	"io/ioutil"
 	"strconv"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
 )
 
 // Enable core tagging. If this returns with no error, all threads in the

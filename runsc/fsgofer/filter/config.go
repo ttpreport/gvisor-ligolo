@@ -17,9 +17,9 @@ package filter
 import (
 	"os"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
+	"github.com/ttpreport/gvisor-ligolo/pkg/seccomp"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
 )
 
 // allowedSyscalls is the set of syscalls executed by the gofer.

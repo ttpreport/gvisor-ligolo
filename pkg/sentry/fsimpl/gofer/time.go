@@ -15,9 +15,9 @@
 package gofer
 
 import (
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/vfs"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
 )
 
 func dentryTimestamp(t linux.StatxTimestamp) int64 {

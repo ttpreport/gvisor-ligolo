@@ -19,12 +19,12 @@ import (
 	"path/filepath"
 	"runtime/debug"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/flipcall"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
+	"github.com/ttpreport/gvisor-ligolo/pkg/p9"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/unet"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/flipcall"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/p9"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/unet"
 )
 
 // Connection represents a connection between a mount point in the client and a

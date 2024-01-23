@@ -53,7 +53,7 @@ import (
 	"reflect"
 	"runtime"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/state/wire"
+	"github.com/ttpreport/gvisor-ligolo/pkg/state/wire"
 )
 
 // objectID is a unique identifier assigned to each object to be serialized.

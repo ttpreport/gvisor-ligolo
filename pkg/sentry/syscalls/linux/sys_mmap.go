@@ -17,14 +17,14 @@ package linux
 import (
 	"bytes"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/tmpfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/mm"
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
+	"github.com/ttpreport/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/fsimpl/tmpfs"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/kernel"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/memmap"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/mm"
 )
 
 // Brk implements linux syscall brk(2).

@@ -15,12 +15,12 @@
 package linux
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/timerfd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	ktime "github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/time"
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
+	"github.com/ttpreport/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/fsimpl/timerfd"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/kernel"
+	ktime "github.com/ttpreport/gvisor-ligolo/pkg/sentry/kernel/time"
 )
 
 // TimerfdCreate implements Linux syscall timerfd_create(2).

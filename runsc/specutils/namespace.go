@@ -26,7 +26,7 @@ import (
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/syndtr/gocapability/capability"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
 )
 
 // nsCloneFlag returns the clone flag that can be used to set a namespace of

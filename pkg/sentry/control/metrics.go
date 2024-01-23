@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/metric"
-	pb "github.com/nicocha30/gvisor-ligolo/pkg/metric/metric_go_proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/prometheus"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/metric"
+	pb "github.com/ttpreport/gvisor-ligolo/pkg/metric/metric_go_proto"
+	"github.com/ttpreport/gvisor-ligolo/pkg/prometheus"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 )
 
 // Metrics includes metrics-related RPC stubs.

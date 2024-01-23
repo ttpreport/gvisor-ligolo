@@ -20,8 +20,8 @@ package fdnotifier
 import (
 	"unsafe"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/waiter"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
 )
 
 // NonBlockingPoll polls the given FD in non-blocking fashion. It is used just

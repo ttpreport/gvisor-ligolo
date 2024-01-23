@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/webhook/pkg/injector"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
+	"github.com/ttpreport/gvisor-ligolo/webhook/pkg/injector"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	k8snet "k8s.io/apimachinery/pkg/util/net"
 	"k8s.io/client-go/kubernetes"

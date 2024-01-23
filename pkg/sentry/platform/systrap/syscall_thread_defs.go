@@ -15,7 +15,7 @@
 package systrap
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
 )
 
 const syscallStubMessageOffset = hostarch.PageSize

@@ -18,12 +18,12 @@ package fdimport
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/fd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/host"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/ttpreport/gvisor-ligolo/pkg/context"
+	"github.com/ttpreport/gvisor-ligolo/pkg/fd"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/fsimpl/host"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/kernel"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/kernel/auth"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/vfs"
 )
 
 // Import imports a map of FDs into the given FDTable. If console is true,

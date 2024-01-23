@@ -15,8 +15,8 @@
 package auth
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/bits"
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
+	"github.com/ttpreport/gvisor-ligolo/pkg/bits"
 )
 
 // A CapabilitySet is a set of capabilities implemented as a bitset. The zero

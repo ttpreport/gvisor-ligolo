@@ -18,8 +18,8 @@
 package strace
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/arch"
 )
 
 // linuxARM64 provides a mapping of the Linux arm64 syscalls and their argument

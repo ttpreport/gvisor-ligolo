@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/watchdog"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
-	"github.com/nicocha30/gvisor-ligolo/runsc/version"
+	"github.com/ttpreport/gvisor-ligolo/pkg/refs"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/watchdog"
+	"github.com/ttpreport/gvisor-ligolo/runsc/flag"
+	"github.com/ttpreport/gvisor-ligolo/runsc/version"
 )
 
 // Config holds configuration that is not part of the runtime spec.

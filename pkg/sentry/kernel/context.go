@@ -15,8 +15,8 @@
 package kernel
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/ipc"
+	"github.com/ttpreport/gvisor-ligolo/pkg/context"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/kernel/ipc"
 )
 
 // contextID is the kernel package's type for context.Context.Value keys.

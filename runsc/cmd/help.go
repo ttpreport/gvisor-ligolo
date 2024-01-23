@@ -19,7 +19,7 @@ import (
 	"fmt"
 
 	"github.com/google/subcommands"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
+	"github.com/ttpreport/gvisor-ligolo/runsc/flag"
 )
 
 // NewHelp returns a help command for the given commander.

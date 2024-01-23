@@ -17,15 +17,15 @@ package kernel
 import (
 	"sync/atomic"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
-	ktime "github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/time"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/limits"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/usage"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
+	"github.com/ttpreport/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/ttpreport/gvisor-ligolo/pkg/context"
+	"github.com/ttpreport/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/kernel/auth"
+	ktime "github.com/ttpreport/gvisor-ligolo/pkg/sentry/kernel/time"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/limits"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/usage"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 )
 
 // A ThreadGroup is a logical grouping of tasks that has widespread

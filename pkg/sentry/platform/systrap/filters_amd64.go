@@ -18,7 +18,7 @@
 package systrap
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
+	"github.com/ttpreport/gvisor-ligolo/pkg/seccomp"
 )
 
 // SyscallFilters returns syscalls made exclusively by the systrap platform.

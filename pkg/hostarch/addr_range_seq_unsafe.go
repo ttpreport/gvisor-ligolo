@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/gohacks"
+	"github.com/ttpreport/gvisor-ligolo/pkg/gohacks"
 )
 
 // An AddrRangeSeq represents a sequence of AddrRanges.

@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/link/rawfile"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/rawfile"
 )
 
 const sizeofUint64 = 8

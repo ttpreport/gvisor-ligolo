@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/gohacks"
-	"github.com/nicocha30/gvisor-ligolo/pkg/safecopy"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/gohacks"
+	"github.com/ttpreport/gvisor-ligolo/pkg/safecopy"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 )
 
 // A Block is a range of contiguous bytes, similar to []byte but with the

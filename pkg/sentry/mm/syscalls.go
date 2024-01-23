@@ -18,14 +18,14 @@ import (
 	"fmt"
 	mrand "math/rand"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/futex"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/limits"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
+	"github.com/ttpreport/gvisor-ligolo/pkg/context"
+	"github.com/ttpreport/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/kernel/auth"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/kernel/futex"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/limits"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/memmap"
 )
 
 // HandleUserFault handles an application page fault. sp is the faulting

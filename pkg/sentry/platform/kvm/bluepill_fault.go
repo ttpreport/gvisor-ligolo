@@ -17,8 +17,8 @@ package kvm
 import (
 	"sync/atomic"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
 )
 
 const (

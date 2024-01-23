@@ -31,13 +31,13 @@ import (
 	"github.com/cenkalti/backoff"
 	"github.com/mohae/deepcopy"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
+	"github.com/ttpreport/gvisor-ligolo/pkg/bits"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/kernel/auth"
+	"github.com/ttpreport/gvisor-ligolo/runsc/config"
+	"github.com/ttpreport/gvisor-ligolo/runsc/flag"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/bits"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
-	"github.com/nicocha30/gvisor-ligolo/runsc/config"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
 )
 
 const (

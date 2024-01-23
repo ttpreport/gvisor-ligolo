@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 )
 
 // ReadSize is the default amount that a View's size is increased by when an

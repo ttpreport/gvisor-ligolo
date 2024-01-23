@@ -21,16 +21,16 @@ package xdp
 import (
 	"fmt"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/buffer"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/link/qdisc/fifo"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/link/rawfile"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/link/stopfd"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/ttpreport/gvisor-ligolo/pkg/xdp"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/buffer"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/qdisc/fifo"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/rawfile"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/stopfd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
-	"github.com/nicocha30/gvisor-ligolo/pkg/xdp"
 )
 
 // TODO(b/240191988): Turn off GSO, GRO, and LRO. Limit veth MTU to 1500.

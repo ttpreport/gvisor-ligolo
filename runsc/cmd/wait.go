@@ -20,11 +20,11 @@ import (
 	"os"
 
 	"github.com/google/subcommands"
+	"github.com/ttpreport/gvisor-ligolo/runsc/cmd/util"
+	"github.com/ttpreport/gvisor-ligolo/runsc/config"
+	"github.com/ttpreport/gvisor-ligolo/runsc/container"
+	"github.com/ttpreport/gvisor-ligolo/runsc/flag"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
-	"github.com/nicocha30/gvisor-ligolo/runsc/config"
-	"github.com/nicocha30/gvisor-ligolo/runsc/container"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
 )
 
 const (

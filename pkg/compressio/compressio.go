@@ -54,7 +54,7 @@ import (
 	"io"
 	"runtime"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 )
 
 var bufPool = sync.Pool{

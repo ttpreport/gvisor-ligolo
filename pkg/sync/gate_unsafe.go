@@ -20,7 +20,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/gohacks"
+	"github.com/ttpreport/gvisor-ligolo/pkg/gohacks"
 )
 
 // Gate is a synchronization primitive that allows concurrent goroutines to

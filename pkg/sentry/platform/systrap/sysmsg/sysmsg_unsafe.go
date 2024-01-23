@@ -18,8 +18,8 @@ import (
 	"syscall"
 	"unsafe"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
 )
 
 // SleepOnState makes the caller sleep on the ThreadContext.State futex.

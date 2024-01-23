@@ -19,8 +19,8 @@ import (
 	"time"
 	"unsafe"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
 )
 
 // CPUTime returns the CPU time usage by Sentry and app.

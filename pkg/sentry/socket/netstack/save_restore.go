@@ -15,7 +15,7 @@
 package netstack
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/stack"
 )
 
 // afterLoad is invoked by stateify.

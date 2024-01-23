@@ -24,8 +24,8 @@ package kvm
 import (
 	"unsafe"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/arch"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
 )
 
 //go:linkname throw runtime.throw

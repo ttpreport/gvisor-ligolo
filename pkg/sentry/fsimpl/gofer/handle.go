@@ -15,12 +15,12 @@
 package gofer
 
 import (
+	"github.com/ttpreport/gvisor-ligolo/pkg/context"
+	"github.com/ttpreport/gvisor-ligolo/pkg/lisafs"
+	"github.com/ttpreport/gvisor-ligolo/pkg/safemem"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/hostfd"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/lisafs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/safemem"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/hostfd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
 )
 
 var noHandle = handle{

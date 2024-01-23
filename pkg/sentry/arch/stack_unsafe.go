@@ -17,8 +17,8 @@ package arch
 import (
 	"unsafe"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/marshal/primitive"
 )
 
 // pushAddrSliceAndTerminator copies a slices of addresses to the stack, and

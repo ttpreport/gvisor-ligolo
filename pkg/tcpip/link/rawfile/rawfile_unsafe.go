@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"unsafe"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
 )
 
 // SizeofIovec is the size of a unix.Iovec in bytes.

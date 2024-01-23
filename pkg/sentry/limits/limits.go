@@ -16,8 +16,8 @@
 package limits
 
 import (
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
 )
 
 // LimitType defines a type of resource limit.

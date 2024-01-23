@@ -34,16 +34,16 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/prometheus"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/control"
-	"github.com/nicocha30/gvisor-ligolo/pkg/state"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/runsc/config"
-	"github.com/nicocha30/gvisor-ligolo/runsc/container"
-	"github.com/nicocha30/gvisor-ligolo/runsc/sandbox"
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
+	"github.com/ttpreport/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
+	"github.com/ttpreport/gvisor-ligolo/pkg/prometheus"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/control"
+	"github.com/ttpreport/gvisor-ligolo/pkg/state"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/runsc/config"
+	"github.com/ttpreport/gvisor-ligolo/runsc/container"
+	"github.com/ttpreport/gvisor-ligolo/runsc/sandbox"
 )
 
 const (

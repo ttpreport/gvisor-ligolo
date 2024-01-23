@@ -18,10 +18,10 @@ import (
 	"runtime"
 	"unsafe"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/nvgpu"
+	"github.com/ttpreport/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/ttpreport/gvisor-ligolo/pkg/marshal/primitive"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/nvgpu"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
 )
 
 func frontendIoctlInvoke[Params any](fi *frontendIoctlState, sentryParams *Params) (uintptr, error) {

@@ -17,10 +17,10 @@ package strace
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/syscalls/linux"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/kernel"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/syscalls/linux"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
 )
 
 func fdsFromSet(t *kernel.Task, set []byte) []int {

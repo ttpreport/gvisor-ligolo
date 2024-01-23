@@ -21,7 +21,7 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/state/wire"
+	"github.com/ttpreport/gvisor-ligolo/pkg/state/wire"
 )
 
 // internalCallback is a interface called on object completion.

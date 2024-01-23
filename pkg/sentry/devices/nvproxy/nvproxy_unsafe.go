@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"unsafe"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/nvgpu"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/nvgpu"
 )
 
 func hostDriverVersion() (string, error) {

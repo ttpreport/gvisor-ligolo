@@ -36,9 +36,9 @@ import (
 	"github.com/containerd/fifo"
 	runc "github.com/containerd/go-runc"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
+	"github.com/ttpreport/gvisor-ligolo/pkg/shim/runsc"
+	"github.com/ttpreport/gvisor-ligolo/pkg/shim/utils"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/shim/runsc"
-	"github.com/nicocha30/gvisor-ligolo/pkg/shim/utils"
 )
 
 const statusStopped = "stopped"

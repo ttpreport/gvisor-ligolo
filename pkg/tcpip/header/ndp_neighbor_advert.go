@@ -14,7 +14,7 @@
 
 package header
 
-import "github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+import "github.com/ttpreport/gvisor-ligolo/pkg/tcpip"
 
 // NDPNeighborAdvert is an NDP Neighbor Advertisement message. It will
 // only contain the body of an ICMPv6 packet.

@@ -3,8 +3,8 @@ package seccheck
 import (
 	"unsafe"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/gohacks"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/gohacks"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 )
 
 // SeqAtomicLoad returns a copy of *ptr, ensuring that the read does not race

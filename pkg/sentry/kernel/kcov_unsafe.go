@@ -17,7 +17,7 @@ package kernel
 import (
 	"unsafe"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/safemem"
+	"github.com/ttpreport/gvisor-ligolo/pkg/safemem"
 )
 
 // countBlock provides a safemem.BlockSeq for kcov.count.

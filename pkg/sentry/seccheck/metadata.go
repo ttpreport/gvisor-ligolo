@@ -19,8 +19,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/fd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/fd"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 )
 
 // PointX represents the checkpoint X.

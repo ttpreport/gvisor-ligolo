@@ -23,7 +23,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip"
 )
 
 // ndpOptionIdentifier is an NDP option type identifier.

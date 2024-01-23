@@ -17,7 +17,7 @@ package tcpip
 import (
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 )
 
 // jobInstance is a specific instance of Job.

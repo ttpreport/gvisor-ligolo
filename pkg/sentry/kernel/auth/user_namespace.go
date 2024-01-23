@@ -17,7 +17,7 @@ package auth
 import (
 	"math"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/ttpreport/gvisor-ligolo/pkg/errors/linuxerr"
 )
 
 // A UserNamespace represents a user namespace. See user_namespaces(7) for

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/ttpreport/gvisor-ligolo/pkg/atomicbitops"
 )
 
 func atomicUint32AtOffset(buf []byte, offset int) *atomicbitops.Uint32 {

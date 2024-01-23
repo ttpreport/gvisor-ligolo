@@ -17,8 +17,8 @@ package lisafs
 import (
 	"fmt"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
 )
 
 // Communicator is a server side utility which represents exactly how the

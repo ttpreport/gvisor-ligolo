@@ -18,13 +18,13 @@
 package fdbased
 
 import (
+	"github.com/ttpreport/gvisor-ligolo/pkg/buffer"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/link/rawfile"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/link/stopfd"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/stack"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/buffer"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/rawfile"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/stopfd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
 )
 
 // BufConfig defines the shape of the buffer used to read packets from the NIC.

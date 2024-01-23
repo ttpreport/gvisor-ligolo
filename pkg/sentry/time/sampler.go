@@ -17,8 +17,8 @@ package time
 import (
 	"errors"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
 )
 
 const (

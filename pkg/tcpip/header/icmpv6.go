@@ -17,8 +17,8 @@ package header
 import (
 	"encoding/binary"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/checksum"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/checksum"
 )
 
 // ICMPv6 represents an ICMPv6 header stored in a byte array.

@@ -20,8 +20,8 @@ import (
 	"os"
 
 	"github.com/google/subcommands"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/platform"
+	"github.com/ttpreport/gvisor-ligolo/runsc/flag"
 )
 
 // Platforms implements subcommands.Command for the "platforms" command.

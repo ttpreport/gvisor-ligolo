@@ -17,8 +17,8 @@
 package unimpl
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/ttpreport/gvisor-ligolo/pkg/context"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
 )
 
 // contextID is the events package's type for context.Context.Value keys.

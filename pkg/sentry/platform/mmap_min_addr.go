@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
 )
 
 // systemMMapMinAddrSource is the source file.

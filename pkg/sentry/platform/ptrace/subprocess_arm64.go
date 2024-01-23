@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
+	"github.com/ttpreport/gvisor-ligolo/pkg/seccomp"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/arch"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
 )
 
 const (

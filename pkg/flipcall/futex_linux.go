@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"runtime"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
 )
 
 func (ep *Endpoint) futexSetPeerActive() error {

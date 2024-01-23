@@ -25,7 +25,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 )
 
 // maxPorts is a sanity limit on the maximum number of ports to allocate per

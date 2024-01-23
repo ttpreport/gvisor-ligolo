@@ -19,12 +19,12 @@ package mqfs
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/kernfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/ipc"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/mq"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/ttpreport/gvisor-ligolo/pkg/context"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/fsimpl/kernfs"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/kernel/auth"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/kernel/ipc"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/kernel/mq"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/vfs"
 )
 
 const (

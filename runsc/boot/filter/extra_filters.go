@@ -17,7 +17,7 @@
 package filter
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
+	"github.com/ttpreport/gvisor-ligolo/pkg/seccomp"
 )
 
 // instrumentationFilters returns additional filters for syscalls used by

@@ -16,7 +16,7 @@
 package errors
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux/errno"
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux/errno"
 )
 
 // Error represents a syscall errno with a descriptive message.

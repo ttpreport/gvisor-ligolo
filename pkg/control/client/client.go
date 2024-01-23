@@ -16,8 +16,8 @@
 package client
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/unet"
-	"github.com/nicocha30/gvisor-ligolo/pkg/urpc"
+	"github.com/ttpreport/gvisor-ligolo/pkg/unet"
+	"github.com/ttpreport/gvisor-ligolo/pkg/urpc"
 )
 
 // ConnectTo attempts to connect to the sandbox with the given address.

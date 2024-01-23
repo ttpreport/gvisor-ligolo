@@ -1,12 +1,10 @@
 package mm
 
 import (
-	__generics_imported0 "github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-)
-
-import (
 	"bytes"
 	"fmt"
+
+	__generics_imported0 "github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
 )
 
 // trackGaps is an optional parameter.

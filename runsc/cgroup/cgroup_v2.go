@@ -34,9 +34,9 @@ import (
 	"github.com/cenkalti/backoff"
 	"github.com/coreos/go-systemd/v22/dbus"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
+	"github.com/ttpreport/gvisor-ligolo/pkg/cleanup"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
 )
 
 const (

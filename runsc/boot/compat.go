@@ -18,14 +18,14 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/eventchannel"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
+	rpb "github.com/ttpreport/gvisor-ligolo/pkg/sentry/arch/registers_go_proto"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/strace"
+	spb "github.com/ttpreport/gvisor-ligolo/pkg/sentry/unimpl/unimplemented_syscall_go_proto"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 	"golang.org/x/sys/unix"
 	"google.golang.org/protobuf/proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/eventchannel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	rpb "github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch/registers_go_proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/strace"
-	spb "github.com/nicocha30/gvisor-ligolo/pkg/sentry/unimpl/unimplemented_syscall_go_proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
 )
 
 func initCompatLogs(fd int) error {

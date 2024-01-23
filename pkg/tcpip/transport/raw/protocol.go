@@ -15,11 +15,11 @@
 package raw
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/internal/noop"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/packet"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/transport/internal/noop"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/transport/packet"
+	"github.com/ttpreport/gvisor-ligolo/pkg/waiter"
 )
 
 // EndpointFactory implements stack.RawFactory.

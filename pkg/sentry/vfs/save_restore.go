@@ -17,9 +17,9 @@ package vfs
 import (
 	"sync/atomic"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/ttpreport/gvisor-ligolo/pkg/context"
+	"github.com/ttpreport/gvisor-ligolo/pkg/refs"
+	"github.com/ttpreport/gvisor-ligolo/pkg/waiter"
 )
 
 // ErrCorruption indicates a failed restore due to external file system state in

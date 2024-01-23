@@ -15,9 +15,9 @@
 package ipv4
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/network/internal/ip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/network/internal/ip"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/stack"
 )
 
 var _ stack.IPNetworkEndpointStats = (*Stats)(nil)

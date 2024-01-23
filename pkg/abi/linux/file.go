@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi"
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi"
 )
 
 // Constants for open(2).

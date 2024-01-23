@@ -17,7 +17,7 @@ package iouringfs
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/safemem"
+	"github.com/ttpreport/gvisor-ligolo/pkg/safemem"
 )
 
 // sharedBuffer represents a memory buffer shared between the sentry and

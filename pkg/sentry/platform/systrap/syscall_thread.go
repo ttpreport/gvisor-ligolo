@@ -18,13 +18,13 @@ import (
 	"fmt"
 	"sync/atomic"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/memmap"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/pgalloc"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/platform/systrap/sysmsg"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/usage"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/pgalloc"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform/systrap/sysmsg"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/usage"
 )
 
 // The syscall message consists of sentry and stub messages.

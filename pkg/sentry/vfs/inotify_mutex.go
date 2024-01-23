@@ -3,8 +3,8 @@ package vfs
 import (
 	"reflect"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync/locking"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync/locking"
 )
 
 // Mutex is sync.Mutex with the correctness validator.

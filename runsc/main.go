@@ -19,8 +19,8 @@
 package main
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/runsc/cli"
-	"github.com/nicocha30/gvisor-ligolo/runsc/version"
+	"github.com/ttpreport/gvisor-ligolo/runsc/cli"
+	"github.com/ttpreport/gvisor-ligolo/runsc/version"
 )
 
 // version.Version is set dynamically, but needs to be

@@ -21,9 +21,9 @@ import (
 	"runtime/pprof"
 	"runtime/trace"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/control"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/control"
+	"github.com/ttpreport/gvisor-ligolo/runsc/flag"
 )
 
 // Kind is the kind of profiling to perform.

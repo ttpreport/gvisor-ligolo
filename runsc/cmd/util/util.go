@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/google/subcommands"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
 )
 
 // ErrorLogger is where error messages should be written to. These messages are

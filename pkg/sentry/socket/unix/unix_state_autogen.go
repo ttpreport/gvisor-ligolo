@@ -3,7 +3,7 @@
 package unix
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/state"
+	"github.com/ttpreport/gvisor-ligolo/pkg/state"
 )
 
 func (r *socketRefs) StateTypeName() string {

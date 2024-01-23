@@ -15,9 +15,9 @@
 package ring0
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/ring0/pagetables"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch/fpu"
+	"github.com/ttpreport/gvisor-ligolo/pkg/ring0/pagetables"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/arch/fpu"
 )
 
 // Kernel is a global kernel object.

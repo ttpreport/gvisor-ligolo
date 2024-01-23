@@ -17,10 +17,10 @@ package boot
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	rpb "github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch/registers_go_proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/strace"
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/arch"
+	rpb "github.com/ttpreport/gvisor-ligolo/pkg/sentry/arch/registers_go_proto"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/strace"
 )
 
 const (

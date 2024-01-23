@@ -17,7 +17,7 @@ package bpf
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
 )
 
 // Possible values for ProgramError.Code.

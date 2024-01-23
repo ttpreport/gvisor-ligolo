@@ -20,8 +20,8 @@ package fsutil
 import (
 	"unsafe"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/syserr"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/syserr"
 )
 
 // StatAt is a convenience wrapper around fstatat(2).

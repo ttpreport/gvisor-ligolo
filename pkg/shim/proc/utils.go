@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/shim/runsc"
+	"github.com/ttpreport/gvisor-ligolo/pkg/shim/runsc"
 )
 
 const (

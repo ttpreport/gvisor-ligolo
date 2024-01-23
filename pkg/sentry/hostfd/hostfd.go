@@ -16,8 +16,8 @@
 package hostfd
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/safemem"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/safemem"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 )
 
 // ReadWriterAt implements safemem.Reader and safemem.Writer by reading from

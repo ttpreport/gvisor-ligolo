@@ -18,7 +18,7 @@
 package ring0
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/arch"
 )
 
 // This is an assembly function.

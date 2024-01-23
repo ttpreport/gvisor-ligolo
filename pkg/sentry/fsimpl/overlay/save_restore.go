@@ -15,7 +15,7 @@
 package overlay
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
+	"github.com/ttpreport/gvisor-ligolo/pkg/refs"
 )
 
 func (d *dentry) afterLoad() {

@@ -15,7 +15,7 @@
 package syncevent
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 )
 
 // Broadcaster is an implementation of Source that supports any number of

@@ -17,7 +17,7 @@ package linux
 import (
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
+	"github.com/ttpreport/gvisor-ligolo/pkg/marshal/primitive"
 )
 
 // FUSEOpcode is a FUSE operation code.

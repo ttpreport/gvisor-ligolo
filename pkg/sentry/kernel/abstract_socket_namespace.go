@@ -17,11 +17,11 @@ package kernel
 import (
 	"fmt"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/context"
+	"github.com/ttpreport/gvisor-ligolo/pkg/refs"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/socket/unix/transport"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/socket/unix/transport"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
 )
 
 // +stateify savable

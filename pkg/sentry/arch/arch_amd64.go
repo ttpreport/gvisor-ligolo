@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/rand"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/marshal"
+	"github.com/ttpreport/gvisor-ligolo/pkg/marshal/primitive"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/arch/fpu"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/limits"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch/fpu"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/limits"
 )
 
 // Host specifies the host architecture.

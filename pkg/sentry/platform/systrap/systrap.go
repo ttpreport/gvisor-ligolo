@@ -53,16 +53,16 @@ import (
 	"os"
 	"sync"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	pkgcontext "github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/memutil"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/pgalloc"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform/interrupt"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform/systrap/sysmsg"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform/systrap/usertrap"
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
+	pkgcontext "github.com/ttpreport/gvisor-ligolo/pkg/context"
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/memutil"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/pgalloc"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/platform"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/platform/interrupt"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/platform/systrap/sysmsg"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/platform/systrap/usertrap"
 )
 
 var (

@@ -3,9 +3,9 @@
 package kernel
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/bpf"
-	"github.com/nicocha30/gvisor-ligolo/pkg/state"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/ttpreport/gvisor-ligolo/pkg/bpf"
+	"github.com/ttpreport/gvisor-ligolo/pkg/state"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip"
 )
 
 func (a *abstractEndpoint) StateTypeName() string {

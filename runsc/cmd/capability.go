@@ -19,7 +19,7 @@ import (
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/syndtr/gocapability/capability"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
 )
 
 var allCapTypes = []capability.CapType{

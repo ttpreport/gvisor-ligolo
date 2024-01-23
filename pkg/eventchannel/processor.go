@@ -21,9 +21,9 @@ import (
 	"os"
 	"time"
 
+	pb "github.com/ttpreport/gvisor-ligolo/pkg/eventchannel/eventchannel_go_proto"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
-	pb "github.com/nicocha30/gvisor-ligolo/pkg/eventchannel/eventchannel_go_proto"
 )
 
 // eventProcessor carries display state across multiple events.

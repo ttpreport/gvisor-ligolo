@@ -14,7 +14,7 @@
 
 package usage
 
-import "github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
+import "github.com/ttpreport/gvisor-ligolo/pkg/atomicbitops"
 
 // IO contains I/O-related statistics.
 //

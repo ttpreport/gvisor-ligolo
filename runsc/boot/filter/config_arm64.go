@@ -19,7 +19,7 @@ package filter
 
 import (
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
+	"github.com/ttpreport/gvisor-ligolo/pkg/seccomp"
 )
 
 func init() {

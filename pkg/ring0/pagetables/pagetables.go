@@ -21,7 +21,7 @@
 package pagetables
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/ttpreport/gvisor-ligolo/pkg/hostarch"
 )
 
 // PageTables is a set of page tables.

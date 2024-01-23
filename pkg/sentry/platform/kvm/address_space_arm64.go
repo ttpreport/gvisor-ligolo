@@ -15,7 +15,7 @@
 package kvm
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/ring0"
+	"github.com/ttpreport/gvisor-ligolo/pkg/ring0"
 )
 
 // invalidate is the implementation for Invalidate.

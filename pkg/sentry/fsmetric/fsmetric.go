@@ -18,7 +18,7 @@ package fsmetric
 import (
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/metric"
+	"github.com/ttpreport/gvisor-ligolo/pkg/metric"
 )
 
 // RecordWaitTime enables the ReadWait, GoferReadWait9P, GoferReadWaitHost, and

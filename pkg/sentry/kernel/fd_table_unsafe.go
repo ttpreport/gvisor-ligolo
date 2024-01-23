@@ -17,8 +17,8 @@ package kernel
 import (
 	"math"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/bitmap"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/ttpreport/gvisor-ligolo/pkg/bitmap"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/vfs"
 )
 
 type descriptorBucket [fdsPerBucket]descriptorAtomicPtr

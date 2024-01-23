@@ -18,8 +18,8 @@
 package rawfile
 
 import (
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
 )
 
 const maxErrno = 134

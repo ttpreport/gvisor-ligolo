@@ -19,8 +19,8 @@ import (
 	"sync/atomic"
 	"unsafe"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
 )
 
 func (t *syscallThread) initRequestReplyAddresses(sentryStackAddr uintptr) {

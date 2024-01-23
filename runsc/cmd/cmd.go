@@ -22,9 +22,9 @@ import (
 	"strconv"
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
+	"github.com/ttpreport/gvisor-ligolo/runsc/specutils"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/runsc/specutils"
 )
 
 // intFlags can be used with int flags that appear multiple times.

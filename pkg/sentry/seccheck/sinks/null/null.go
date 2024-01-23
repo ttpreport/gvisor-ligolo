@@ -17,8 +17,8 @@
 package null
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/fd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck"
+	"github.com/ttpreport/gvisor-ligolo/pkg/fd"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sentry/seccheck"
 )
 
 const name = "null"

@@ -15,7 +15,7 @@
 package linux
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
+	"github.com/ttpreport/gvisor-ligolo/pkg/marshal/primitive"
 )
 
 // Linux-specific control commands. Source: include/uapi/linux/msg.h

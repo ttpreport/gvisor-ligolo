@@ -24,10 +24,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/unet"
-	"github.com/nicocha30/gvisor-ligolo/pkg/urpc"
+	"github.com/ttpreport/gvisor-ligolo/pkg/log"
+	"github.com/ttpreport/gvisor-ligolo/pkg/sync"
+	"github.com/ttpreport/gvisor-ligolo/pkg/unet"
+	"github.com/ttpreport/gvisor-ligolo/pkg/urpc"
 )
 
 // curUID is the unix user ID of the user that the control server is running as.

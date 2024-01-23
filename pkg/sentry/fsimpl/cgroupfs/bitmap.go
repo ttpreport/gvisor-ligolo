@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/bitmap"
+	"github.com/ttpreport/gvisor-ligolo/pkg/bitmap"
 )
 
 // formatBitmap produces a string representation of b, which lists the indicies

@@ -21,8 +21,8 @@ package ptrace
 import (
 	"unsafe"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/abi/linux"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
 )
 
 // unmaskAllSignals unmasks all signals on the current thread.

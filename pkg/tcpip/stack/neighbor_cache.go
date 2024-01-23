@@ -17,7 +17,7 @@ package stack
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip"
 )
 
 // NeighborCacheSize is the size of the neighborCache. Exceeding this size will

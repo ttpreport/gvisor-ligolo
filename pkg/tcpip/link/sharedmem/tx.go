@@ -17,10 +17,10 @@ package sharedmem
 import (
 	"math"
 
+	"github.com/ttpreport/gvisor-ligolo/pkg/buffer"
+	"github.com/ttpreport/gvisor-ligolo/pkg/eventfd"
+	"github.com/ttpreport/gvisor-ligolo/pkg/tcpip/link/sharedmem/queue"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/buffer"
-	"github.com/nicocha30/gvisor-ligolo/pkg/eventfd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/sharedmem/queue"
 )
 
 const (
